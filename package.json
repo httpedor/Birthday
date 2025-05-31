@@ -11,13 +11,16 @@
   "dependencies": {
     "bootstrap": "^5.3.6",
     "bootstrap-vue-next": "^0.29.3",
+    "qrcode": "^1.5.4",
     "sass": "^1.89.0",
     "steplix-emv-qrcps": "^0.0.8",
+    "string-strip-html": "^13.4.12",
     "typescript": "^5.8.3",
     "vue": "^3.5.16"
   },
   "devDependencies": {
     "@floating-ui/vue": "^1.1.6",
+    "@types/qrcode": "^1.5.5",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
     "@vueuse/core": "^13.3.0",

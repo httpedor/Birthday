@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import GiftComponent from "./components/GiftComponent.vue";
-import type Gift from "./gift.ts";
+import GiftComponent from "@/components/GiftComponent.vue";
+import type Gift from "@/gift.ts";
 const gifts: Gift[] = [
   {
     name: "Askov Pura",
@@ -67,7 +67,7 @@ const gifts: Gift[] = [
     <h1>Lista de Presentes</h1>
     <div id="shopping-list">
       <template v-for="gift in gifts">
-        <GiftComponent :name="gift.name" :description="gift.description" :price="gift.price" :image="gift.image"/>
+        <GiftComponent :name="gift.name" :description="gift.description" :price="gift.price"/>
       </template>
     </div>
   </main>
