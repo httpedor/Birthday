@@ -8,7 +8,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Gift: typeof import('./src/components/Gift.vue')['default']
+    BIcon: typeof import('./src/components/BIcon.vue')['default']
     GiftComponent: typeof import('./src/components/GiftComponent.vue')['default']
     QRModal: typeof import('./src/components/QRModal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

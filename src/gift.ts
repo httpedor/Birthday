@@ -2,4 +2,5 @@
     name: string;
     description: string;
     price: number;
+    invested: number;
 }
